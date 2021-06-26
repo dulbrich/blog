@@ -1,0 +1,21 @@
+It all starts with a problem.
+
+As a software programmer you might say that I am a professional problem solver. Many of the problems I solve from day to day are easy. Some are not so easy. It's these problems I wish to write about. But first let's talk about what I mean by problem.
+
+People have problems. What I don't mean by this is that people are problems themselves. I'm not talking about the degenerate state people find themselves in. Nor am I talking about solving the worlds problems of hunger or desease. I'm talking about small every day technical issues that we find ourselves toiling away our time solving. Problems like, how am I supposed to get this document from the computer to a piece of physical paper. Or if your me at this exact moment, how am I supposed to edit text in a VIM text editor further back in this paragraph without having to arrow back a bagillion characters - ah, I remember now, you can search with / in normal mode or you can use the alt key. These are the types of problems that I solve day in and day out. But that was an easy problem.
+
+You know I think I fell in love with programming because of this type or problem. The small technical issue that can be solved in many different ways to vary degrees of elegance and effect. 
+
+For example I literally saved a former employee thousands and thousands of dollars in time by using regular expressions to search for and download youtube videos embedded in a library of online learning content. Something they were having students do by hand for weeks and weeks on end I was able to accomplish in a day or so with a little bit of programming knowledge. I mostly did it because I'd rather sit down and solve the puzzle than do the mundane work of clicking through endless website pages.
+
+Another example is how I've been spending countless hours finding a bug in my program because a popup blocker was quietly not allowing me to pull up a document in a new window after it took 3 seconds to download the data for that document.
+
+Yet another example is how I spent hours looking online for a way to associate bank routing numbers with bank names.
+
+These types of problems somehow thrill me. I don't know why. Maybe it's simply getting the reward of solving a puzzle. Or perhaps it tickles this part of me that wants to create things. It could be that I enjoy the creative problem solving process which leads me down twists and turns. Honestly, solving problems is like a good mystery novel. I suppose there is often great satisfaction in getting to be Sherlock Holmes when you've solved the mystery and you get to sum up the solution to your colleagues like a boss.  
+
+I can remember as a child these sorts of problems used to scare me. I used to avoid them because I used to fear that I wasn't smart enough or that others would judge me. Somewhere along the way I think I stopped focusing on that and started focusing more on the joy of the hunt. Programming is a solitary sport. You sit in front of a keybaord day in and day out alone. Many social skills begin to worsen. There's a certain sense of being in a 'safe space' because solving any problem tends to look like magic to the lay person. For loops, polymorphism, ternary, if statements, memory leaks, UX, UI, GUI, unix, C#, IDE, constructors: all techno bable to most.
+
+It is true, often times the problems I solve don't have a huge impact on the world. Sometimes my inability to solve a certain problem quickly can be a detriment to someones business processes. Other times I take a lot of pride in the program I use, only to come to find out that it frustrates a lot of people because they have no idea how to use it - no matter how intuitive I thought it was.
+
+The simple fact: people have problems. I get to solve those problems. It can be exhausting work. It can be gruelling. But it can also be fantastic.
