@@ -1,0 +1,25 @@
+Bank routing numbers. 
+
+Recently I’ve had to learn a little bit more about them for work. I do not pretend to be an expert on routing numbers, but by necessity I’ve had to move past where to find the number on a check. 
+
+Routing numbers - or American Banking Association (ABA) routing transit numbers (RTN) - are 9 digits long and are unique to each bank. Routing numbers have meaning and math behind them. You can validate them using a simple formula (I will  not cover that here). The most interesting part about an ABA RTN in my opinion is that the first two digits correspond with the type of institution it belongs to. Is it a regular bank or a thrift credit union? Is it something else? If the first two numbers fall in the range of 01-12, for example, then thats a ‘regular’ bank and is associated with one of the 12 federal reserve banks. Reading into the history and meaning of routing numbers and how to verify them is an interesting topic and I encourage further reading on the subject. 
+
+As it turns out, banks come and go about as quickly as phone numbers. Or at least, their routing numbers do. Some stick around a long time. Others change frequently. I believe this has to do with ownership of banks changing hands. Mergers, buyouts, and fledgling subsidiaries seem to be common these days. 
+
+This has created a significant problem for my employer and keeping track of which banks they are to send payroll direct deposits to. Far to often a batch of payments fail because due to routing number changes. Currently we try to keep a list of active banks and associated routing numbers but it’s consistently out of date. What we need is a registry of routing numbers. 
+
+As a matter of fact, the list of bank routing numbers is published as a registry biannually and is known in the industry as a “Key Book”. One point of frustration is that the fed has stopped making this registry public as of 2018 due to fraud. I’m told, however, that you may be able to gain access to it from your financial institution or from accuity.com.  
+
+It would seem there are many paid services out there that will help you verify account information, but the price is usually a limiting factor. 
+
+In my opinion the problem is thus: make the user experience of setting up and maintaining a direct deposit account as painless as possible. Bank routing numbers should be associated with a bank name at time of set up.  Don’t change the associated name when it changes in the registry. Otherwise HR will get calls asking why deposits are being placed in the wrong bank.  Should a routing number become stale, then notify the user that they may need to update their banking information. 
+
+Side note, don’t allow humans to define bank names. Normalizing such a list of bank names is proving to be a huge hassle. Use the names from the registry at time of set up.
+
+Getting into the weeds a bit further, I have yet to gain access to the key book. I have found a resource online called banklocations.com, however. They have a free bank lookup tool. I suspect they don’t want you programmatically accessing their data verbatim. They state that they can and will block IP addresses. But they provide code to embed their tool into your website. I plan on using this tool to have users look up their institution at the time they create their direct deposit. New direct deposit records will be treated as a source of truth given the routing number and associated bank names are sourced ultimately from the key book. In the event that a new direct deposit record shows a new bank name associated with a routing number that differs from what we have on record, all older direct deposit records will be flagged for review and owners of records will be notified to update their banking information at their earliest convenience.
+
+The process of updating may be painful. Currently, it takes an entire pay period to verify a new direct deposit account. The first payday we attempt to make a zero dollar deposit into the new account provided by the employee. Once a zero dollar amount has been successfully paid then all future direct deposits will be made to that account. What this means is that it can take 4 weeks or more to receive direct deposits to a new account. 
+
+I don’t think this is a better solution than paid solutions. However, I don’t think it’s a bad solution for free. 
+
+I would much rather use an instant account verification system from plaid, but I guess we work with the budget we are given.
